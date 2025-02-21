@@ -31,15 +31,29 @@ h2 {
   font-weight: bold;
 }
 
-a:link,
+a[href^="mailto:"] {
+  color: green; 
+}
+
+a[href^="http"] {
+  color: red; 
+}
 a:visited {
-  color: #fb6542;
+  color: #FF0000;
+}
+ul {
+  border: 5px solid purple; /* Purple border */
+  padding: 2em; /* Adds space inside the border */
+  width: auto; /* Makes the box fit the content */
+  border-radius: 5px; /* Optional: Rounds the corners */
+
 }
 
-a:hover {
-  text-decoration: none;
-}
 
+
+</style>
+</head>
+<body>
 
 <h1>Jane Doe</h1>
 <div class="job-title">Web Developer</div>
