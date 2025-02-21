@@ -1,13 +1,16 @@
 <!--
 	Name: Siddhartha Gaire
 	File: filename.html
-	Date: 21 February 2025
+	Date: 21 February 202
 	A very brief description of the file.
 	-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <title>Biography Page</title>
+
+<style>
     body {
   font-family: Arial, Helvetica, sans-serif;
 }
